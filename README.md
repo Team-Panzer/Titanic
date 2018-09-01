@@ -37,3 +37,4 @@ print("The test data score is")
 print(reg.score(x_test[['Pclass','Sex','Age','Cost']],y[['Survived']]))
 print("The train data score is")
 print(reg.score(df[['Pclass','Sex','Age','Cost']],df[['Survived']]))
+#done by Sayantan
